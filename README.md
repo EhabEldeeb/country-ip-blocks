@@ -1,3 +1,8 @@
+
+## Fork Notice
+All i did was convert the tons of files into two csv files in order to be easily searchable
+
+
 # Country IP Blocks
 
 These have a thousand and one uses but are surprisingly hard to come by in
