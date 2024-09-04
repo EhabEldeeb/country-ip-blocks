@@ -79,13 +79,13 @@ if (isset($_REQUEST['ip'])) {
     }
     if (!$found) {
         $msg = "Can't find country for this IP.";
-        $response = ["status" => "error", "status_code" => 1, "response" => $msg];
+        $response = ["status" => "error", "status_code" => 2, "response" => $msg];
         if ($WebInterface)
             echo $msg;
     }
 } else {
     $msg = "IP Address not supplied.";
-    $response = ["status" => "error", "status_code" => 1, "response" => $msg];
+    $response = ["status" => "error", "status_code" => 3, "response" => $msg];
     if ($WebInterface)
         echo $msg;
 }
