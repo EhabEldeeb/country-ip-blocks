@@ -7,7 +7,7 @@ if (isset($_GET['api'])) {
 } else {
     ?>
     <form method="POST">
-        <input type="text" name="IP" placeholder="IP" />
+        <input type="text" name="ip" placeholder="IP" />
         <button type="submit">Find Country</button>
     </form>
     <?php
